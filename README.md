@@ -12,3 +12,10 @@ Core Technology Stack
 - PostgreSQL - Primary relational database
 - Redis - Distributed caching and rate limiting
 - RabbitMQ - Message broker for async processing
+
+
+#Frontend & Monitoring
+- React with TypeScript - Main user-facing frontend
+- Streamlit (Python) - Real-time system monitoring dashboard
+- HTML5/CSS3 - Modern web standards and responsive design
+- JWT Authentication - Client-side token management
