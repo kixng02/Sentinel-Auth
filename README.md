@@ -72,9 +72,15 @@ Streamlit-Specific Skills Showcased
 - Monitoring & Observability - System health dashboards
 
 
+#Success Metrics
+✅ User registration with secure password hashing
+✅ JWT token generation and validation
+✅ Redis-based rate limiting on login endpoint
+✅ Docker Compose environment running locally
+✅ Basic load test with k6 showing <100ms P95 latency
 
 
-# Backend Architecture	Senior/Lead - Production-scale systems
+# Proficiency Level Showcased: Backend Architecture	Senior/Lead - Production-scale systems
 1. Security Implementation	Security Specialist - Enterprise-grade auth
 2. Data Visualization	Advanced - Real-time monitoring dashboards
 3. Database Design	Advanced - Million-user optimization
