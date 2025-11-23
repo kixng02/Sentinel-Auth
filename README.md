@@ -1,8 +1,15 @@
 # Sentinel-Auth
-This project demonstrates production-ready engineering skills across backend, security, monitoring, and full-stack development - showcasing the ability to build complete, enterprise-grade systems with comprehensive observability.
+APPLICATION features
+The App is a secure authentication system buikt for handling a million users
+• Password hashing, rate limits, and device signals.
+• Login flows break when latency increases at scale.
+• Store credentials safely and respond to mass credential stuffing.
+
+# Technical System overview
+This project demonstrates production-ready engineering skills across backend, security, monitoring, and full-stack development - showcasing the ability to build complete, enterprise-grade systems with comprehensive observability. 
 
 1. Sentinel-Auth Core Service
-- Key Features to Showcase:
+- Key Features to Showcase
 - Secure password hashing with Argon
 - Distributed rate limiting with Redis
 - JWT with refresh token rotation
