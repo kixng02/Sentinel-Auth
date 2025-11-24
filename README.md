@@ -1,6 +1,7 @@
 # CredCompact 360 (.NETCore Ecosystem)
 # Credential Stuffing Detection and Alerting System
 A production-ready system built with .NET Core, designed to handle and scale a millions of users.
+(This tool is best suited for intergration with login forms)
 - The .NET Core backend logs every failed login attempt to a dedicated Postgres auditing table. 
 - A separate background worker analyzes this table for patterns (e.g., failed attempts across many accounts from one IP) and triggers alerts. k6 simulates a continuous, distributed credential stuffing attack.
 - A service that records every critical security action (login, logout, password change, permission grant) as an immutable, time-stamped record in a dedicated Postgres log table.
