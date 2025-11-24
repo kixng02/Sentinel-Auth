@@ -14,18 +14,16 @@ Imagine your organization has 10+ applications, each with its own login system. 
 
 ⚡ Rapid Integration - Simple setup for new and existing applications
 
-┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
-│   Client Apps   │ ── │  Sentinel Auth   │ ── │  Your Backend   │
-│ (Web, Mobile,   │    │   (This Project) │    │   Services      │
-│    Desktop)     │    │                  │    │                 │
-└─────────────────┘    └──────────────────┘    └─────────────────┘
-        │                        │                        │
-        │                        │                        │
-        └────────────────────────┼────────────────────────┘
-                                 │
-                          ┌──────────────┐
-                          │  Databases   │
-                          │ (Redis, SQL) │
-                          └──────────────┘
 
+# Key Features
+Authentication
+✅ Single Sign-On (SSO) across multiple applications
+
+✅ Multi-Factor Authentication (MFA/2FA)
+
+✅ Social logins (Google, GitHub, Microsoft)
+
+✅ Passwordless authentication
+
+✅ Device recognition and trust
                           
