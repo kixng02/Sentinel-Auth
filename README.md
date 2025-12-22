@@ -21,7 +21,7 @@ A production-ready system built with .NET Core, designed to handle and scale a m
 - Monitoring: Prometheus and Grafana stack.
 - Development Tools: Git, Docker, Entity Framework Core
 
-# 1. ⚙️ Real-Time Log Ingestion and Throttling
+# 1.  Real-Time Log Ingestion and Throttling
 - This feature focuses on securing the login endpoint and efficiently capturing the data needed for detection.
 
   .NET Core Backend (Login API)
@@ -92,7 +92,7 @@ Grafana (Visualizer & Alerter)
 
 
 # Key features
-🔍 Attack Detection
+ Attack Detection
 - Pattern Recognition: Identify credential stuffing patterns using behavioral analytics and machine learning
 - Velocity Monitoring: Detect rapid login attempts across multiple accounts with configurable thresholds
 - IP Reputation Analysis: Cross-reference attacker IPs with real-time threat intelligence feeds
